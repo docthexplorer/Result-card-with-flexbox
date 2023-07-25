@@ -1,0 +1,155 @@
+/* Style sheet */
+
+.container {
+    display: flex;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+/* First column styling */
+
+.one {    
+    background: linear-gradient(0deg, hsla(244, 59%, 49%, 1) 40%, hsla(224, 63%, 49%, 1) 100%);
+    border-radius: 15px;
+    color: #BDCDD6;
+    display: relative;
+    font-family: 'Rubik', sans-serif;
+    padding: 1.5rem;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+}
+
+.result-header {
+    margin-top: 0;
+}
+
+h1 {
+    color: white;
+}
+
+.inner-circle {    
+    background-color: #3D34C8;
+    border-radius: 50%;
+    margin: 30px auto 0 auto;
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    width: 30%;
+        
+}
+
+.aggregate {
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+    font-weight:bold;  
+}
+
+.total {
+    margin:0;
+}
+
+
+/* Second column styling */
+
+.two {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #EEF2FF;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.summary {
+    text-align: left;
+    margin-left: 35px;
+}
+
+.summary-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: auto auto 30px auto;
+}
+
+.reaction, .memory, .verbal, .visual {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;      
+    padding-right: 15px;
+    border-radius: 10px;
+
+}
+
+.reaction {
+    background-color: #FFE8D6;
+}
+
+.memory {
+    background-color: #FFF8D2;
+}
+
+.verbal {
+    background-color: #F3F8FF;
+}
+
+.visual {
+    background-color: #F2F4FB;
+}
+
+.lone-score {
+    color: #3F3F44;
+}
+
+.percentage {
+    color: #BBBFCA;
+    font-size: 16px;    
+}
+
+.icon {
+    margin: 0 10px 0 0;
+    width:16px;
+}
+
+.content-one {
+    color: #EB5E0B;
+}
+
+.content-two {
+    color: #F3C623;
+}
+
+.content-three {
+    color: #AFD3E2;
+}
+
+.content-four {
+    color: #7C73E6;
+}
+
+.btn {
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 25px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #3F3F44;
+    padding: 10px 80px 10px 80px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #BBBFCA;
+    text-decoration: none;
+  }
